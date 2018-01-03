@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "deploy:prod": "sls deploy --stage prod --verbose --force"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.160.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^0.0.21",
+    "@types/node": "^8.0.53",
+    "serverless-plugin-typescript": "^1.1.3",
+    "typescript": "^2.6.2"
+  }
+}
